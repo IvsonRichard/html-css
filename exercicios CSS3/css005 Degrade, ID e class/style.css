@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif; /*height: 100%;*/
+}
+body {
+    background-image: linear-gradient(to right, white, blue);
+}
+main{
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1#principal {
+    color: blueviolet;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+h2{color: aqua;}
+.basico{ color: green;
+
+}
+.intemediario{ color: black;
+
+}
+.avancado{ color: brown;
+
+}
+.destaque{
+    background-color: blueviolet;
+}
+p{
+    text-align: justify;
+}

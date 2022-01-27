@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gruping tag</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: grey;
+            
+        }
+        header{
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1{
+            background-color: white;
+            color: black;
+            box-shadow: 2px 2px 2px 2px black;
+            border-radius: 300px;
+        }
+        nav{
+            background-color: bisque;
+            padding: 5px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin: 20px;
+        }
+        main{
+            background-color: white;
+            color: black;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+            
+        }
+        article{
+            background-color: rgba(24, 16, 1, 0.454);
+            border-radius: 10px;
+        }
+        article > aside{
+        background-color: rgba(250, 235, 215, 0.263);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 0px;
+            margin: 1px;
+            box-shadow: 5px 5px 5px 5px white;
+        }
+        footer > p{
+            padding: 1px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: aliceblue;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">fotos</a>
+            <a href="#">videos</a>
+            <a href="#">mensagens</a>
+            <a href="#">sobre</a>
+        </nav>
+    
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="nticias">
+            <article>
+                <h2>noticiassss</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quidem sunt nisi temporibus, repellendus vitae facere, unde optio hic perferendis minus pariatur quaerat culpa incidunt, animi nesciunt nemo aspernatur alias?</p>
+                <aside>
+                    <p>artigo ivson</p>
+
+                </aside>
+                
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p id="bola">IRSM</p>
+
+    </footer>
+    <a href="#">
+   <p><a href="#"><div id="bola"></div><div id="bola"></div> <div id="bola"></div></a></p>
+   </a>
+</body>
+</html>

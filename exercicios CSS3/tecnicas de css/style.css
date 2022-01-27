@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to top, white, rgba(255, 0, 0, 0.544));
+    color: blue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-color: burlywood;
+    color: black;
+}
+h2{
+    background-color: rgba(0, 255, 255, 0.222);
+}
+p{
+    background-color: rgb(250, 235, 215);
+}

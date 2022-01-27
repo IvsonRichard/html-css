@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to top, white, rgba(255, 0, 0, 0.544));
+    color: blue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-color: burlywood;
+    color: black;
+    box-shadow: 3px 3px;
+    border-radius: 40px 10px;
+    margin: 10px;
+    text-align: center;
+}
+h1#titulo-principal{
+    background-color: antiquewhite;
+    color: blueviolet;
+    box-shadow: 10px;
+}
+a{
+    font: bolder none red;
+    text-align: center;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+h2{
+    background-color: rgba(0, 255, 255, 0.222);
+    text-align: center;
+}
+p{
+    background-color: rgb(250, 235, 215);
+    text-align: center;
+}

@@ -15,6 +15,8 @@
 }
 body{
     background-color: var(--cor5);
+    background-image: url('12/pattern001.png') ;
+        background-attachment: fixed;
 
 }
 a.externo::after{

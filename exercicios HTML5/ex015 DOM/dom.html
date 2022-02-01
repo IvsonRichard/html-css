@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blue;
+            color: azure;
+        }
+    </style>
+</head>
+<body>
+    <h1>DOM</h1>
+    <p>aprendendo dom</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil distinctio voluptatibus numquam ex? Dolor libero tempore mollitia non cum consequuntur sunt iusto perspiciatis ea explicabo, nemo labore saepe quos voluptates!</p>
+    <div id="msg">clique aqui</div>
+
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0]
+        var d = window.document.getElementById('msg')
+        d.style.background ='green'
+        d.innerText = ' estou guardando...'
+        var d = window.document.getElementById('div.msg')
+        d.innerText = 'meu nome'
+        
+    </script>
+</body>
+</html>

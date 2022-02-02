@@ -1,5 +1,9 @@
 @charset "UTF-8"
 
+:root{
+    --fonte1: verdana, geneva, tahoma, sans-serif;
+    --fonte2: 'passion one', cursive;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -14,15 +18,20 @@ header{
     color: aliceblue;
     text-align: center;
 }
+header > a {
+    margin-bottom: 10px;
+}
 header > h1{
     padding-top: 60px;
     font-variant: small-caps;
+    font-family: var(--fonte1);
 }
 section{
     padding: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 4vw;
 
 }
 
@@ -37,6 +46,7 @@ section.image{
 section.image > p{
     width: 200px;
     background-color: rgba(0, 0, 0, 0.571);
+    font-family: var(--fonte1);
 }
 
 

@@ -11,7 +11,27 @@
 <style>
    
 
-}
+   table {
+       
+       background-color: rgba(240, 255, 255, 0.16);
+            width: 400px;
+            height: 300px;
+            border-collapse: separate; /* collapse*/
+            text-align: center;
+        }
+        tr.linha{
+            background-color: rgba(128, 128, 128, 0.66);
+        }
+        td {
+            border: 1px solid black;
+            padding: 4px; ;
+            text-align: center;/* alinhamento horizontal*/
+            vertical-align: bottom;
+        }
+        td.dado{
+            background-color: aqua;
+            text-shadow: 2px 2px 2px 5px;
+        }
 
 </style>
 <body>
@@ -47,11 +67,39 @@
                <li><abbr title="4">numeroquatro</abbr></li>
                <li><abbr title="5">numerocinco</abbr></li>
            </ul>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laudantium perferendis, molestiae blanditiis minus cum consequuntur eius, corrupti obcaecati, soluta quasi repudiandae numquam facilis fuga iste exercitationem omnis quidem deserunt!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Voluptas laudantium perferendis,<br> molestiae blanditiis minus cum consequuntur eius,<br> corrupti obcaecati,<br> soluta quasi repudiandae numquam facilis fuga iste exercitationem omnis quidem deserunt!<br></p>
            </aside>
+           
 
        </article>
+           <table> <br><h1>tabela</h1><p>qualquer outro assunto para tabelas:</p>
+        <tr> <!--p linha-->
+            <td>a1
+            <td>b1
+            <td>c1
+
+        </tr>
+        <tr class="linha">
+            <td> <p>test</p>a2</td>
+            <td>b2</td>
+            <td>c2</td>
+
+        </tr>
+        <tr>
+            <td>a3</td>
+            <td>b2</td>
+            <td>c3</td>
+        </tr>
+        <tr>
+            <td>a4</td>
+            <td>b4</td>
+        </tr>
+        <tr >
+            <td class="dado">a5</td>
+        </tr>
+    </table>
     </main>
+
     <footer>
         Site montado por:
         <strong>Ivson Richard</strong>

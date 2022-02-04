@@ -1,0 +1,71 @@
+body{
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0.482),rgba(0, 0, 255, 0.605) );
+
+}
+header{
+    margin: 10px;
+    padding: 1px;
+    text-align: center;
+
+}
+header > h1{
+    background-color: gray;
+    color: aliceblue;
+    border-radius: 10px;
+    text-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px black;
+    
+}
+header > nav > a {
+    background-color: gray;
+    color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px black;
+}
+main{ 
+    background-color: rgb(240, 248, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+main > article{
+    margin-left:2px ;
+}
+main > article > h1.tt{
+    background-color: black;
+    color: aliceblue;
+}
+main > article > section{
+
+}
+table {
+    width: 400px;
+    height: 300px;
+    border-collapse: separate; /* collapse*/
+}
+tr.linha{
+    background-color: rgba(128, 128, 128, 0.66);
+}
+td {
+    border: 1px solid black;
+    padding: 4px; ;
+    text-align: center;/* alinhamento horizontal*/
+    vertical-align: bottom;
+}
+td.dado{
+    background-color: aqua;
+    text-shadow: 2px 2px 2px 5px;}
+    
+footer{
+    background-color: black;
+    color: aliceblue;
+    margin: 1px;
+    text-align: center;
+    
+    
+
+}
+footer > p > a{
+    color: aliceblue;
+}

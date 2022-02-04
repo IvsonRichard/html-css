@@ -1,0 +1,26 @@
+
+
+body{
+    background: blueviolet;
+
+}
+header{
+      color: aliceblue;
+      text-align: center;
+      text-shadow: 5px 5px 10px black;
+}
+section{
+    background: white;
+    border-radius: 30px;
+    padding: 20px;
+    width: 550px;
+    margin: auto;
+    box-shadow: 5px 5px  10px black;
+
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+
+}

@@ -134,6 +134,9 @@ aside > ul {
     list-style-position: inside;
     columns: unset;
 }
+table{
+    
+}
 footer{
     background-color: #9E65EB;
     color: azure;

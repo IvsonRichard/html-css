@@ -134,7 +134,27 @@ aside > ul {
     list-style-position: inside;
     columns: unset;
 }
-table{
+table {
+       
+    background-color: rgba(240, 255, 255, 0.16);
+         width: 400px;
+         height: 300px;
+         border-collapse: separate; /* collapse*/
+         text-align: center;
+     }
+     tr.linha{
+         background-color: rgba(128, 128, 128, 0.66);
+     }
+     td {
+         border: 1px solid black;
+         padding: 4px; ;
+         text-align: center;/* alinhamento horizontal*/
+         vertical-align: bottom;
+     }
+     td.dado{
+         background-color: aqua;
+         text-shadow: 2px 2px 2px 5px;
+     }
     
 }
 footer{
@@ -153,4 +173,8 @@ footer a {
 footer a:hover{
     text-decoration: underline;
     color: #65BBEB;
+}
+footer p.gm{
+    text-align: center;
+    margin: 10px;
 }

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treinando html</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgba(128, 128, 128, 0.537);
+        }
+        header{
+            background-color: rgba(0, 0, 0, 0.441);
+            color: aliceblue;
+            margin: 5px;
+            padding: 5px;
+            text-align: center;
+            text-shadow: 5px 5px 10px black;
+            box-shadow: 5px 5px 15px black;
+        }
+        header > h1{
+            margin: 5px;
+            padding: 5px;
+        }
+        header > h4{
+            margin: 2px;
+            padding: 3px;
+        }
+        nav{
+             background-color: #0b0b0b;
+             padding: 15px;
+             box-shadow: 0px 5px 8px black;
+            text-align: center;
+        }
+        nav > a {
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 30%;
+             text-decoration: none;
+             font-weight: bolder;
+              transition-duration: 5;
+               text-shadow: 5px 5px 10px black;
+        }
+        nav > a:hover{
+             background-color: white;
+             color:var(--cor4); 
+        }
+        main{
+            background-color: aliceblue;
+            color: black;
+            margin: 2%;
+        }
+        main > article{
+            text-align: auto;
+        }
+        main > article > h2{
+            background-color: black;
+            color: aliceblue;
+            margin: 1px;
+            padding: 1px;
+            border-radius: 2px;
+        }
+        main > article > aside > h5{
+            background-color: black;
+            color: aliceblue;
+            margin: 10px;
+            padding: 1px;
+        }
+        main > article > aside > ul{
+            background-color: rgba(137, 43, 226, 0.386);
+        }
+        table {
+       
+       background-color: rgba(240, 255, 255, 0.16);
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse; /* collapse*/
+            text-align: center;
+        }
+        tr.linha{
+            background-color: rgba(128, 128, 128, 0.66);
+        }
+        td {
+            border: 1px solid black;
+            padding: 1px; ;
+            text-align: center;/* alinhamento horizontal*/
+            vertical-align: bottom;
+        }
+        td.dado{
+            background-color: aqua;
+            text-shadow: 2px 2px 2px 5px;
+        }
+        footer{
+            background-color :rgba(128, 128, 128, 0.455);
+            color: aliceblue;
+            margin: 2px;
+            padding: 2px;
+            text-shadow: 1px 1px 2px black;
+        }
+        /**/.gm{
+            background-color: black;
+            color: aliceblue;
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Titulo da minha page.</h1>
+        <h4>qualquer titulo que vá ficar a baixo do slogan.</h4>
+       
+    </header>
+        <nav>
+            <a href="port.html">home</a>
+            <a href="#">page 2</a>
+
+        </nav>
+    <main>
+        <article>
+            <h1>titulo da matéria.</h1><br>
+            <h2>primeiro icone</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, iure! Animi assumenda dolore nulla, placeat provident hic tempore numquam. Quod eum consequatur accusamus eligendi commodi est provident quae eius incidunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quis dolore, cupiditate dolores pariatur tempora blanditiis impedit ad maiores unde saepe aliquam voluptates possimus voluptatum, provident odit exercitationem corporis ratione?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quod, voluptas velit dolorem esse voluptatibus doloribus. Accusantium odit, dignissimos laboriosam unde, quod minus animi aut quae, impedit ad dolores officia?</p><br>
+            <h2>segundo icone.</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi inventore a hic vel porro laudantium ipsum magnam asperiores adipisci saepe ab id, ipsam voluptatem deleniti quia laborum eos incidunt non. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam corporis, nesciunt provident magni veniam ut corrupti facilis dicta facere cupiditate dolor libero excepturi, praesentium minus nam in repellendus eum. Alias!</p><br>
+            
+            <h3>aprenda mais</h3><br>
+            <h4>curiosidades</h4><br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam nisi cumque ipsum fugit dolorem quos consequuntur, perspiciatis voluptates ducimus iure vitae. Ad, id libero. Ipsa illum nisi pariatur optio consequatur?</p><br>
+            <h4>mais...</h4><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, iure accusantium temporibus modi blanditiis nostrum voluptate vel molestiae voluptatem illo quae velit eaque maxime? Magni velit eaque consequatur tempora fuga.</p>
+
+            <aside>
+                <h5 class="ip">lista...</h5>
+                <ul>
+                    <li>number1</li>
+                    <li>number2</li>
+                    <li>number3</li>
+                    <li>number4</li>
+                    <li>number5</li>
+                </ul>
+            </aside>
+
+        </article>
+        <table><h2>assunto da tabela.</h2>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+                <td>d</td>
+                <td>e</td>
+
+            </tr>
+            <tr>
+                <td>I</td>
+                <td>II</td>
+                <td>III</td>
+                <td>IV</td>
+                <td>V</td>
+            </tr>
+
+
+        </table>
+
+        
+
+    </main>
+    <footer>
+        
+            <h6 class="gm">
+                Site montado por:
+                <strong><a href="https://github.com/IvsonRichard">&copy Ivson Richard</a> </strong>
+            </h6>
+       
+
+        </footer>
+        <p>55555</p> 
+
+        <script>
+            
+                    alert ('Ola!')
+         var nome = prompt( 'digite seu nome')
+                    confirm( ` bem vindo: ${nome} !`)
+
+
+        </script>
+
+
+</body>
+
+</html>

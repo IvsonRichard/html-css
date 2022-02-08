@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>jogo</title>
+
+        <style>
+            div{
+                background-color: aqua;
+                position: absolute;
+                top: 0px;
+                bottom: 0px;
+                left: 0px;
+                right: 0px;
+                margin: 50px;
+                border: 10px;
+                padding: 10px;
+
+            }
+        </style>
+
+    </head>
+    <body>
+        <div>
+            <script>
+                var canvas, ctx, altura, largura, frames = 0;
+                function clique(evt) {
+                    alert("clicou")
+                }
+                function main () {
+                    altura = window.innerHeight;
+                    largura = window.innerWidth;
+                    if (largura >= 500){
+                        largura = 600;
+                        altura = 600;
+                    }
+                    div = document.createElement ("div")
+                    div.width = largura;
+                    div.height = altura;
+                    div.style.border = "1px solid #000";
+                    ctx = canvas.getContext ("2d");
+                    document.body.appendChild(div);
+                    document.addEventListener("mousedown" ,clique);
+                }
+                function roda() {}
+                function atualiza () {}
+                function desenha () {}
+            </script>
+        </div>

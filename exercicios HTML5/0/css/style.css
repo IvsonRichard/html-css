@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: rosybrown;
+
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    
+}
+nav{
+    background-color: brown;
+
+
+}
+ div{
+    background-color: aliceblue;
+}
+main{
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px black;
+    
+
+}
+footer{
+    color: aliceblue;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black;
+
+}
+footer > a{
+    color: aliceblue;
+}
